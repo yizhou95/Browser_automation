@@ -6,10 +6,11 @@ For Mac:
 4) export CPATH="$(brew --prefix portaudio)/include" (inside venv)
    export LDFLAGS="-L$(brew --prefix portaudio)/lib" (inside venv)
    export ARCHFLAGS="-arch arm64" (inside venv)
-5) Upgrade pip and Install PyAudio:
+5) pip install -r requirements.txt
+6) Upgrade pip and Install PyAudio:
    pip install --upgrade pip
    pip install --no-binary :all: pyaudio
-6) python main.py (run the project)
+7) python main.py (run the project)
 
 
 For windows:
